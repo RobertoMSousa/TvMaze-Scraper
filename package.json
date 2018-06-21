@@ -1,0 +1,26 @@
+{
+  "name": "tvmaze_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "express": "^4.16.3",
+    "got": "^8.3.1",
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "supertest": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "./node_modules/mocha/bin/mocha *.test.js"
+  },
+  "author": "Roberto Sousa",
+  "license": "ISC"
+}
