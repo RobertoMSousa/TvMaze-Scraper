@@ -13,7 +13,6 @@ const showSchema = new Schema({
     runtime: Number,
     premiered: String,
     officialSite: String,
-    // cast: Array,
     cast: [{ type: Schema.Types.ObjectId, ref: 'Cast' }],
     schedule: {
         time: String,
