@@ -91,7 +91,7 @@ app.get('/show/:id', (req, res) => {
 
 app.listen(3000, () => {
     scrapShow();
-    console.log('Example app listening on port 3000!')
+    console.log('TvMaze Scraper listening on port 3000!')
 })
 
 module.exports = app;

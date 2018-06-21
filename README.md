@@ -6,8 +6,6 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Build](#build)
-- [Testing](#testing)
-
 
 ## Details
 ### Name
@@ -46,9 +44,4 @@ http://localhost:3000/show/{ID}?page={pageNumber}
 | npm Scripts               |                                   Description                                                     |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
 | `start`                   | Does the same as 'npm run serve'. Can be invoked with `npm start`                                 |
-| `test`                    | Runs tests using Mocha test runner                                                                |
 | `dev`                     | Start the project with the dev options on                                                         |
-
-
-## Testing
-To run the tests just run `npm run test` and it will run then.
