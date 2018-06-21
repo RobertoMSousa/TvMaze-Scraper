@@ -42,6 +42,7 @@ http://localhost:3000/show/{ID}?page={pageNumber}
 ```
 
 ##Build
+
 | npm Scripts               |                                   Description                                                     |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
 | `start`                   | Does the same as 'npm run serve'. Can be invoked with `npm start`                                 |
